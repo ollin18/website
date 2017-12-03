@@ -18,21 +18,23 @@ title: Ollin D. Langle
 alt_title: Ollin D. Langle
 email: ollin.demian@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my first attempt to build my personal webpage where I'm going to post all my
-  documentation along with a technical blog and photographs I want to share with the
-  world.
-short_description: I'm a physicist turn data scientist.
+    Hi, I'm Ollin. Welcome to my personal webpage! A place where I share some of my work and contact details.
+short_description: I'm a physicist turning into data scientist.
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://www.ollinlangle.com"
 author:
   name: Ollin Demian
   twitter: Nietzchrodinger
   instagram: ollin18
-  picture: /assets/images/ollinzen.jpg
+  lastfm: ollinlangle
+  picture: /assets/images/convilla.jpg
 twitter_username: Nietzchrodinger
 github_username: ollin18
 instagram_username: ollin18
+lastfm_username: ollinlangle
 jsonresume_username: ollin18
+discus:
+    shortname: ollinlangle
 logo: /assets/images/logo.png # path of site logo, e.g. "/assets/images/logo.png"
 
 # Build settings
@@ -76,7 +78,7 @@ exclude:
 
 # Front Matter Defaults
 defaults:
-  # _posts
+   #_posts
   - scope:
       path: "_posts"
       type: posts

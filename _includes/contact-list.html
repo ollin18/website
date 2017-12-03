@@ -20,6 +20,10 @@
     <li>{% include icon-instagram.html username=site.instagram_username label='Instagram' %}</li>
   {% endif %}
 
+  {% if site.lastfm_username %}
+    <li>{% include icon-lastfm.html username=site.lastfm_username label='Last.fm' %}</li>
+  {% endif %}
+
   <li>
     {% if site.plugins contains 'jekyll-feed' %}
       <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">

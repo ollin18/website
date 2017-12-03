@@ -4,8 +4,8 @@
     "label": "Data Scientist",
     "email": "ollin.demian@gmail.com",
     "phone": "+52 1 5518117484",
-    "website": "https://ollin18.github.io",
-    "summary": I'm from Mexico City and I found myself very passionated about cience and arts. I earned a BSc degree in physics from the National Autonomous University of Mexico (UNAM) and have succesfully concluded a MSc in Data Science at the Techonologic Autonomous Institute of Mexico (ITAM). The social and environmental problems are the main focus of my interests, with the sustainability as the main one.",
+    "website": "http://www.ollinlangle.com",
+    "summary": I'm from Mexico City and I found myself very passionated about science and arts. I earned a BSc degree in physics from the National Autonomous University of Mexico (UNAM) and have succesfully concluded a MSc in Data Science at the Techonologic Autonomous Institute of Mexico (ITAM). The social and environmental problems are the main focus of my interests, with the sustainability as the main one.",
     "location": {
       "address": "Coyoacan",
       "postalCode": "04390",
@@ -16,6 +16,36 @@
     "profiles": []
   },
   "work": [
+    {
+      "company": "SEDESOL Data Lab",
+      "position": "Data Scientist",
+      "website": "https://www.plataformapreventiva.gob.mx",
+      "startDate": "2017-09-01",
+      "summary": "Machine Learning for public policy",
+      "highlights": [
+        "Pipeline ingest",
+        "Database creation",
+        "Real income prediction"
+      ]
+    },
+    {
+      "company": "Presage Research",
+      "position": "Data Scientist",
+      "startDate": "2017-09-01",
+      "website": "",
+      "summary": "Machine Learning for reputation management and bullying allerts",
+      "highlights": [
+        "Analize social media data",
+        "Obtain social media data",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "company": "Institute of Analytics",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "2017-01-01",
+    },
     {
       "company": "Stevens Institute of Technology",
       "position": "Summer Research",
@@ -82,7 +112,18 @@
       "summary": "Latin American School and Workshop on Data Analysis and Mathematical Modelling of Social Sciences"
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+        "name": "Dynamics of the Mexican Senate",
+        "releaseDate": "11-2017",
+        "publisher": "Latin American Conference on Complex Networks Proceedings"
+    },
+    {
+        "name": "Optimal percolation on text based created networks",
+        "releaseDate": "11-2017",
+        "publisher": "Latin American Conference on Complex Networks Proceedings"
+    }
+  ],
   "skills": [
     {
       "name": "Data Science",
