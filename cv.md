@@ -4,5 +4,5 @@ layout: cv
 actions:
   - label: "Download as PDF"
     icon: pdf
-    url: "#pdf-asset"
+    url: "http://www.ollinlangle.com/CV/CV_OllinL.pdf"
 ---

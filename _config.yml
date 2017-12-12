@@ -18,7 +18,7 @@ title: Ollin D. Langle
 alt_title: Ollin D. Langle
 email: ollin.demian@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Hi, I'm Ollin. Welcome to my personal webpage! A place where I share some of my work and contact details.
+    Hi, I'm Ollin. Welcome to my personal website! A place where I share some of my work and contact details.
 short_description: I'm a physicist turning into data scientist.
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://www.ollinlangle.com"
@@ -33,18 +33,17 @@ github_username: ollin18
 instagram_username: ollin18
 lastfm_username: ollinlangle
 jsonresume_username: ollin18
-discus:
-    shortname: ollinlangle
 logo: /assets/images/logo.png # path of site logo, e.g. "/assets/images/logo.png"
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-twitter-plugin
 feed:
   path: atom.xml
 
@@ -75,6 +74,9 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
+
+disqus:
+    shortname: ollin18
 
 # Front Matter Defaults
 defaults:
